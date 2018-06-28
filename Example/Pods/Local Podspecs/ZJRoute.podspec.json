@@ -1,0 +1,22 @@
+{
+  "name": "ZJRoute",
+  "version": "0.1.0",
+  "summary": "A short description of ZJRoute.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MaricleZhang/ZJRoute",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MaricleZhang": "jian.zhang@qianli.com"
+  },
+  "source": {
+    "git": "https://github.com/MaricleZhang/ZJRoute.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZJRoute/Classes/**/*"
+}
