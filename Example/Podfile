@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJRoute_Example' do
+  pod 'ZJRoute', :path => '../'
+
+  target 'ZJRoute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
