@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIViewController+ZJRoute.h"
+#import "ZJRoute.h"
 
 FOUNDATION_EXPORT double ZJRouteVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZJRouteVersionString[];

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0273F16D20E516C000985CBD /* ZJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273F16720E516BF00985CBD /* ZJSecondViewController.m */; };
+		0273F16E20E516C000985CBD /* ZJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273F16A20E516C000985CBD /* ZJFirstViewController.m */; };
+		0273F16F20E516C000985CBD /* ZJWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0273F16C20E516C000985CBD /* ZJWebViewController.m */; };
+		0273F17120E5189600985CBD /* ZJRoute.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0273F17020E5189500985CBD /* ZJRoute.plist */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,10 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0273F16720E516BF00985CBD /* ZJSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSecondViewController.m; sourceTree = "<group>"; };
+		0273F16820E516C000985CBD /* ZJSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSecondViewController.h; sourceTree = "<group>"; };
+		0273F16920E516C000985CBD /* ZJFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFirstViewController.h; sourceTree = "<group>"; };
+		0273F16A20E516C000985CBD /* ZJFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFirstViewController.m; sourceTree = "<group>"; };
+		0273F16B20E516C000985CBD /* ZJWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJWebViewController.h; sourceTree = "<group>"; };
+		0273F16C20E516C000985CBD /* ZJWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJWebViewController.m; sourceTree = "<group>"; };
+		0273F17020E5189500985CBD /* ZJRoute.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZJRoute.plist; sourceTree = "<group>"; };
 		0541C639326EE19B995FE88F /* Pods-ZJRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRoute_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJRoute_Tests/Pods-ZJRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B999EB1BB53F2BD0B02C1AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B999EB1BB53F2BD0B02C1AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		51852E19152D40F3F20B565E /* Pods-ZJRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRoute_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJRoute_Example/Pods-ZJRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53AC0C07DFADED97BF99CE9A /* ZJRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZJRoute.podspec; path = ../ZJRoute.podspec; sourceTree = "<group>"; };
+		53AC0C07DFADED97BF99CE9A /* ZJRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJRoute.podspec; path = ../ZJRoute.podspec; sourceTree = "<group>"; };
 		5AD45567CA336F58BE357D0E /* Pods_ZJRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZJRoute_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJRoute_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,7 +77,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C40BA3E2372C70F7D3FE656 /* Pods-ZJRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRoute_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJRoute_Example/Pods-ZJRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3722F30309869A7E0496D9E /* Pods-ZJRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRoute_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJRoute_Tests/Pods-ZJRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CBB509A012D18A4DB538AE5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CBB509A012D18A4DB538AE5A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +146,16 @@
 				6003F59C195388D20070C39A /* ZJAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				0273F16920E516C000985CBD /* ZJFirstViewController.h */,
+				0273F16A20E516C000985CBD /* ZJFirstViewController.m */,
+				0273F16820E516C000985CBD /* ZJSecondViewController.h */,
+				0273F16720E516BF00985CBD /* ZJSecondViewController.m */,
+				0273F16B20E516C000985CBD /* ZJWebViewController.h */,
+				0273F16C20E516C000985CBD /* ZJWebViewController.m */,
 				6003F5A5195388D20070C39A /* ZJViewController.h */,
 				6003F5A6195388D20070C39A /* ZJViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				0273F17020E5189500985CBD /* ZJRoute.plist */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -282,6 +300,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0273F17120E5189600985CBD /* ZJRoute.plist in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,8 +423,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZJAppDelegate.m in Sources */,
+				0273F16D20E516C000985CBD /* ZJSecondViewController.m in Sources */,
+				0273F16F20E516C000985CBD /* ZJWebViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* ZJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0273F16E20E516C000985CBD /* ZJFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

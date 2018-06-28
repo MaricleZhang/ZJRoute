@@ -1,8 +1,8 @@
 {
   "name": "ZJRoute",
   "version": "0.1.0",
-  "summary": "A short description of ZJRoute.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "iOS 一种跳转路由实现方式",
+  "description": "iOS 一种跳转路由实现方式，可以实现Controller 之间的解耦，可以由后端接口控制前端跳转",
   "homepage": "https://github.com/MaricleZhang/ZJRoute",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZJRoute/Classes/**/*"
+  "source_files": "ZJRoute/Classes/**/*",
+  "public_header_files": "ZJRoute/Classes/**/*.h"
 }
