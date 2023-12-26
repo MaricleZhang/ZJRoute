@@ -27,5 +27,3 @@ MaricleZhang
 
 ZJRoute is available under the MIT license. See the LICENSE file for more info.
 
-iOS 路由实现方式
-
