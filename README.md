@@ -21,7 +21,7 @@ pod 'ZJRoute'
 
 ## Author
 
-MaricleZhang
+MaricleZhang, jian.zhang@qianli.com
 
 ## License
 
