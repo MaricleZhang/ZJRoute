@@ -1,7 +1,6 @@
 # ZJRoute
 [![CI Status](https://img.shields.io/travis/MaricleZhang/ZJRoute.svg?style=flat)](https://travis-ci.org/MaricleZhang/ZJRoute)
 [![Version](https://img.shields.io/cocoapods/v/ZJRoute.svg?style=flat)](https://cocoapods.org/pods/ZJRoute)
-[![License](https://img.shields.io/cocoapods/l/ZJRoute.svg?style=flat)](https://cocoapods.org/pods/ZJRoute)
 
 ## Example
 
